@@ -1,0 +1,35 @@
+
+
+/* .slider .tour */
+#tour01{
+    background-image: url(../images/tour_img_01.jpg);
+}
+#tour02{
+    background-image: url(../images/tour_img_02.jpg);
+}
+#tour03{
+    background-image: url(../images/tour_img_03.jpg);
+}
+#tour04{
+    background-image: url(../images/tour_img_04.jpg);
+}
+
+/* .listBox .bigLogo 와 아이콘들*/
+.listBox .bigLogo{
+    background-image:url(../images/insta_white_logo.png)
+}
+.insLogoId .Logo{
+    background-image:url(../images/insta_white_logo.png);
+}
+.insLeft .like{
+    background-image:url(../images/insta_like.png);
+}
+.insLeft .reply{
+    background-image:url(../images/insta_reply.png);
+}
+.insLeft .with{
+    background-image:url(../images/insta_with.png);
+}
+.ins_icon .bookmark{
+    background-image:url(../images/insta_bookmark.png);
+}

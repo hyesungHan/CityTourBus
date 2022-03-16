@@ -1,0 +1,120 @@
+@charset 'utf=8';
+
+:root{ font-size:12px; }
+
+@font-face {
+    font-family:'VITRO_core' ;
+    src: url(../font/VITRO_core.ttf);
+}
+@font-face {
+    font-family:'VITRO_pride' ;
+    src: url(../font/VITRO_pride.ttf);
+}
+@font-face {
+    font-family:'ONE_Mobile_Title' ;
+    src: url(../font/ONE_Mobile_Title.ttf);
+}
+@font-face {
+    font-family:'ONE_Mobile_Regular' ;
+    src: url(../font/ONE_Mobile_Regular.ttf);
+}
+@font-face {
+    font-family:'ONE_Mobile_Bold' ;
+    src: url(../font/ONE_Mobile_Bold.ttf);
+}
+@font-face {
+    font-family:'ONE_Mobile_Light' ;
+    src: url(../font/ONE_Mobile_Light.ttf);
+}
+@font-face {
+    font-family:'ONE_Mobile_POP' ;
+    src: url(../font/ONE_Mobile_POP.ttf);
+}
+@font-face {
+    font-family:'Marker_Regular';
+    src: url(../font/PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family:'GreatVibes_Regular';
+    src: url(../font/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family:'Lobster_Regular';
+    src: url(../font/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:var(--thema02-color06);
+}
+li{
+    list-style:none;
+}
+body{
+    font-family:NanumSquareRound;
+    color:var(--thema07-color01);
+    --main-color01:#2E200D;
+    --main-color02:#705329;
+    --main-color03:#908464;
+    --main-color04:#B72834;
+    --main-color05:#D6B86C;
+
+    --thema02-color01:#231D1E;
+    --thema02-color02:#755D43;
+    --thema02-color03:#82493C;
+    --thema02-color04:#BEA593;
+    --thema02-color05:#C4C4C4;
+    --thema02-color06:#FBFAF1;
+
+    --thema03-color01:#392F2B;
+    --thema03-color02:#96919E;
+    --thema03-color03:#9E5349;
+    --thema03-color04:#A3A79E;
+    --thema03-color05:#D16858;
+
+    --thema04-color01:#26263C;
+    --thema04-color02:#4E60B2;
+    --thema04-color03:#817172;
+    --thema04-color04:#969EA9;
+    --thema04-color05:#DBD3CA;
+
+    --thema05-color01:#363C36;
+    --thema05-color02:#8393A8;
+    --thema05-color03:#905B50;
+    --thema05-color04:#A2B0A8;
+    --thema05-color05:#DCD7CB;
+
+    --thema06-color01:#101520;
+    --thema06-color02:#27436D;
+    --thema06-color03:#4E80BA;
+    --thema06-color04:#76ACB9;
+    --thema06-color05:#B8ACA4;
+
+    --thema07-color01:#383E41;
+    --thema07-color02:#99B1D2;
+    --thema07-color03:#9C9993;
+    --thema07-color04:#B2C6DB;
+    --thema07-color05:#E1DEC8;
+    --thema07-color06:#FFFEFA;
+
+
+
+
+
+
+}
