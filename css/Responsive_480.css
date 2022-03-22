@@ -130,55 +130,53 @@ body{
 
             /* 슬라이더 투어코스+스페셜코스 */
 .outBox{
-    height:1000px;
+    height:1180px;
     position:relative;
+    margin-bottom:10rem;
 }
 .outBox::before {
-    margin-bottom:5rem;
+    display:none;
 }
 .outBox .helper{
     display:none;
 }
 .slider{
     display:block;
-    position:absolute;
 }
 .inner{
     display:block;
     position:static;
 }
 .inner .text{
-    width:480px;
-    height:525px;
-    position:absolute;
+    width:100%;
+    height:45%;
 }
 .inner .right{
-    left:1px;
+    left:0;
     top:0;
     border-radius:90px 0 0 0;
 }
 .inner .left{
     left:0;
-    top:560px;
+    bottom:0;
     border-radius:0 90px 0 0;
 }
 .slider .img{
-    width:450px;
-    height:279px;
+    width:95%;
     position:absolute;
     z-index:1;
     border-radius:40px 40px 0 0;
 }
 .slider .img div{
-    height:280px;
+    height:55%;
 }
 .tour .left{
-    top:163px;
-    left:15px;
+    top:14.5%;
+    left:2.5%;
 }
 .special .right{
-    top:723px;
-    left:14px;
+    bottom:-12%;
+    left:2.5%;
 }
 .tourName{
     font-size:20px;
@@ -199,12 +197,12 @@ body{
     background-color:var(--thema07-color05);
 }
 .inner .top{
-    top:135px;
-    left:147px;
+    top:11.5%;
+    left:29%;
 }
 .inner .bottom{
-    top:694px;
-    left:145px;
+    bottom:29%;
+    left:29%;
 }
 /* .inner .text 내용 */
 .textContainer{
@@ -217,7 +215,7 @@ body{
 }
 .textContainer .more{
     margin:auto;
-    transform:translateY(320px);
+    transform:translateY(325px);
 }
 
             /* animation */
@@ -239,26 +237,27 @@ body{
     background:linear-gradient(transparent 1%, #fff 20%);
 }
 .contentsBox .insBox{
-    width:220px;
+    width:45%;
+    height:220px;
 }
 .contentsBox>#content3{
-    width:calc(220px * 2 + 0.5rem);
+    width:calc(45% * 2 + 0.5rem);
 }
 .contentsBox>#content3 .ins_img{
     width:100%;
-    height:330px;
+    height:220px;
 }
 .contentsBox>#content3 .ins_img img{
     width:100%;
-    height:320px;
+    height:220px;
 }
 .ins_img{
-    width:220px;
+    width:100%;
     height:220px;
     margin-bottom:0;
 }
 .ins_img img{
-    width:220px;
+    width:100%;
     height:220px;
 }
 .ins_img:hover{
