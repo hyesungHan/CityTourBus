@@ -1,3 +1,13 @@
+/* bigSlider */
+.bigSlider>div:nth-child(4), #lastClone{
+    background-image: url(../images/bigslider03.jpg);
+}
+.bigSlider>div:nth-child(2), #firstClone{
+    background-image: url(../images/bigslider01.jpg);
+}
+.bigSlider>div:nth-child(3){
+    background-image: url(../images/bigslider02.jpg);
+}
 
 
 /* .slider .tour */

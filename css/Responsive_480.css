@@ -41,21 +41,14 @@ body{
 }
             /* 큰 슬라이더 */
 .topBox{
-    height:300px;
     margin-bottom:1rem;
     z-index:-1;
 }
 .bigSliderBox{
-    width:450px;
-    height:300px;
+    bottom:45px;
     border-radius:0 0 0 65px;
 }
-.bigSlider{
-    width:calc(450px * 5);
-    height:300px;
-}
-.bigSlider img{
-    width:450px;
+.bigSlider>div{
     height:300px;
 }
 .event{
@@ -70,7 +63,7 @@ body{
     overflow:hidden;
     position:relative;
     left:10px;
-    bottom:30px;
+    bottom:60px;
     animation: bubble 1s infinite alternate;
 }
 .newsIcon a{
@@ -88,7 +81,7 @@ body{
 }
 
 @keyframes bubble {
-    100%{ bottom:35px;}
+    100%{ bottom:65px;}
 }
             /* 소개글 */
 .text01{
@@ -103,11 +96,11 @@ body{
     font-size:44px;
 }
 #seoul{
-    left:25rem;
+    left:60%;
     top:2rem;
 }
 #tourBus{
-    left:-7rem;
+    left:-16%;
     bottom:-8rem;
 }
 .text01_title{
@@ -137,9 +130,6 @@ body{
 .outBox::before {
     display:none;
 }
-.outBox .helper{
-    display:none;
-}
 .slider{
     display:block;
 }
@@ -149,7 +139,7 @@ body{
 }
 .inner .text{
     width:100%;
-    height:45%;
+    height:550px;
 }
 .inner .right{
     left:0;
@@ -166,17 +156,19 @@ body{
     position:absolute;
     z-index:1;
     border-radius:40px 40px 0 0;
+    left:2.5%;
 }
-.slider .img div{
-    height:55%;
+.img div{
+    height:300px;
+}
+.img div>img{
+    height:300px;
 }
 .tour .left{
     top:14.5%;
-    left:2.5%;
 }
 .special .right{
-    bottom:-12%;
-    left:2.5%;
+    bottom:7%;
 }
 .tourName{
     font-size:20px;
@@ -188,34 +180,30 @@ body{
     z-index:99;
     position:absolute;
 }
-.indecator{
-    padding-top:0.5rem;
-}
 .indecator li{
     width:15px;
     height:15px;
     background-color:var(--thema07-color05);
 }
 .inner .top{
-    top:11.5%;
+    top:17%;
     left:29%;
 }
 .inner .bottom{
-    bottom:29%;
+    bottom:26%;
     left:29%;
 }
 /* .inner .text 내용 */
 .textContainer{
     display:block;
     position:relative;
-    padding-top:3rem;
 }
 .scriptBox .price{
     display:none;
 }
 .textContainer .more{
     margin:auto;
-    transform:translateY(325px);
+    transform:translateY(333px);
 }
 
             /* animation */
